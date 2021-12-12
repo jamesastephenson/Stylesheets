@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+body {
+  background: black;
+  display: flex;
+  font-family: "Mukta", sans-serif;
+}
+
+.sidenav {
+  background: linear-gradient(to right, rgb(15, 105, 1), rgb(0, 129, 0));
+  border: 2px solid rgba(255, 255, 255, 0.692);
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 30%;
+}
+
+.navlink {
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+  padding: 0.5em 0.5em 0.5em 1em;
+  text-decoration: none;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.466);
+  transition-duration: 0.2s;
+  width: 70%;
+}
+
+.navlink:hover {
+  background: rgb(2, 168, 2);
+  border-radius: 5px;
+  padding-left: 2em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.74);
+  width: 85%;
+}
+
+.navlink:active {
+  background: rgba(0, 99, 0, 0.9);
+  transform: scale(95%);
+}
+
+.content {
+  background: linear-gradient(to top, rgb(70, 70, 70), rgb(104, 104, 104));
+  border: 2px solid rgba(255, 255, 255, 0.692);
+  border-radius: 0px 5px 5px 0px;
+  flex: 1;
+  font-size: 14pt;
+  padding: 1em;
+  text-shadow: 2px 2px 4px black;
+  width: 50%;
+}
+
+.text {
+  color: white;
+}
+
+.btn {
+  background: grey;
+  border: 2px solid rgba(255, 255, 255, 0.692);
+  color: white;
+  font-size: 16pt;
+  padding: 0.5em;
+  transition-duration: 0.2s;
+  width: 100%;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.692);
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4em;
+  text-shadow: 1px 1px 20px grey;
+}
+
+.btn:active {
+  transform: scale(98%);
+}
