@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: rgb(209, 152, 226);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  background: linear-gradient(rgba(34, 34, 34, 0.8), rgba(70, 70, 70, 0.699));
+  border-radius: 5px;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 0.25em 0;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(161, 119, 173);
+}
+
+.impact {
+  color: red;
+  text-shadow: 1px 1px 5px rgb(100, 100, 100);
+}
+
+.button {
+  background: rgba(34, 34, 34, 0.8);
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1.5em;
+  margin: 0 auto;
+  padding: 0.25em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  transition-duration: 0.2s;
+  width: 50%;
+}
+
+.button:hover {
+  background: rgba(34, 34, 34, 0.8);
+  color: rgb(255, 78, 78);
+  cursor: pointer;
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.card {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(250, 250, 250, 0.699)
+  );
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  padding: 1em 3em;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(105%);
+}
+
+.cardHeader {
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
+}
+
+.cardHeader h2 {
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(189, 105, 214, 0.486);
+}
+
+.cardContent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.cardContent img {
+  border-radius: 15px;
+  max-width: 75%;
+}
+
+.cardFooter {
+  border-top: 1px solid black;
+  padding: 1em 0;
+  overflow-wrap: break-word;
+}
