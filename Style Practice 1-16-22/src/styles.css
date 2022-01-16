@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.container {
+  background: linear-gradient(rgb(140, 232, 255), rgb(162, 236, 255));
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  text-align: center;
+  width: 80%;
+}
+
+.oddRow {
+  background: white;
+}
+
+.evenRow {
+  background: rgb(210, 245, 253);
+}
+
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 4px rgb(42, 84, 133);
+  margin: 1em auto;
+}
+
+.table * {
+  border: 1px solid black;
+  padding: 0.5em;
+  text-align: center;
+  width: 4em;
+}
+
+.table tr {
+  transition-duration: 0.2s;
+}
+
+.table tr:hover {
+  background: rgb(34, 34, 34);
+  color: white;
+}
+
+.table tr:first-of-type {
+  background: rgb(61, 124, 196);
+  color: white;
+  text-shadow: 2px 2px 2px rgb(42, 84, 133);
+}
+
+.titleText {
+  background: rgb(61, 124, 196);
+  border: 1px solid rgb(42, 84, 133);
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px rgb(5, 5, 5);
+  color: white;
+  margin: 0.5em auto;
+  padding: 0.15em;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgb(42, 84, 133);
+  width: 70%;
+}
